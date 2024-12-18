@@ -35,7 +35,7 @@ const Tutorials = () => {
         e.preventDefault();
 
         // Validate user input: disallow unrelated searches
-        const allowedKeywords = ['cybersecurity', 'hacking', 'phishing', 'cryptography', 'owasp', 'network security' , 'malware'];
+        const allowedKeywords = ['cybersecurity', 'hacking', 'phishing', 'cryptography', 'owasp', 'network security' , 'malware','owasp top 10' , 'information gathering','how to become hacker','whie-hat hacker','black-hat hacker','penetration testing','information scanning', 'roadmap for cyber-security','roadmap for cyber security','soc analyst','read team in ethical hacking','blue team in ethical hacking','system hacking','sql injection','os command injection','bruteforce attack','what is metasploit','what is nessus','what is burpsuite'];
         const isValid = allowedKeywords.some((keyword) =>
             userInput.toLowerCase().includes(keyword)
         );
